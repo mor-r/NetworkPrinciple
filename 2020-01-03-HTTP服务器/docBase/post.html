@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>发表文章</title>
+    <meta charset="UTF-8" />
+    <style>
+        #导航栏 {
+            height: 40px;
+        }
+
+        #导航栏 * {
+            height: 100%;
+        }
+
+        #title {
+            width: 480px;
+            font-size: 26px;
+        }
+
+        #发表文章 {
+            background-color: red;
+            color: white;
+        }
+    </style>
+    <script>
+        function 保存草稿() {
+            alert("保存成功");
+        }
+    </script>
+</head>
+<body>
+<a href="https://www.baidu.com/">文章管理</a>
+<div id="导航栏">
+    <input id="title" type="text" name="title" value="欢迎使用CSDN-markdown编辑器" />
+    <button onclick="保存草稿();">保存草稿</button>
+    <button id="发表文章">发表文章</button>
+</div>
+<div>
+    <button>加粗</button>
+    <button>斜体</button>
+</div>
+<div>
+    <div>
+        <textarea></textarea>
+    </div>
+    <div>
+        <p></p>
+    </div>
+</div>
+</body>
+</html>
